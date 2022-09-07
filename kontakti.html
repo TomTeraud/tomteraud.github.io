@@ -54,20 +54,36 @@
             </a>            
         </div>
         <div id="tabula">
+            
             <p>
-                <p>
+                <div>
                     Adrese: Rīga
                     <br>
                     Tel. nr.: 98874565
                     <br>
                     epasts: test@test.lv
-                </p>                           
-                <form>
-                    Ziņot mums.
-                    <input type="text" placeholder="text here" name="name" height="50">
-                    <input type="submit">            
-                </form>    
-            </div>        
+                </div>
+                <br>
+                <form class="was-validated">
+                    <div class="mb-3">
+                      <label for="validationTextarea" class="form-label">Rakstiet mums:<br></label>
+                      <textarea class="form-control" id="validationTextarea" placeholder="..." required></textarea>
+                      <div class="invalid-feedback"></div>
+                    </div>
+                  
+                    <br>
+                    <div class="mb-3">
+                      <select class="form-select" required aria-label="select example">
+                        <option value="">Ziņojuma veids</option>
+                        <option value="1">Pasūtījum</option>
+                        <option value="2">Ierosinājums</option>
+                        <option value="3">Atsauksme</option>
+                      </select>
+                      <div class="mb-3">
+                        <br>
+                      <button class="btn btn-primary" type="submit" enabled>Sūtīt ziņu</button>
+                    </div>
+                  </form>
         </div>
     </div>
     <footer id="footer">Copyright &#169; Toms Tērauds</footer>

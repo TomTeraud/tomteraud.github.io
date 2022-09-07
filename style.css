@@ -83,6 +83,9 @@
     width: 100%;
     text-align: center;
 }
+#sutitZinu {
+  background-color: aqua;
+}
 table {
     border: 1px solid black;
     border-collapse: collapse;
